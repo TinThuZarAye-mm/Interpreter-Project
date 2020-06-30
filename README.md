@@ -1,7 +1,7 @@
 # CSC 413 - Project Two - The Interpreter
 
-## Student Name  : Name here
+## Student Name  : Tin Thu Zar Aye
 
-## Student ID    : ID here
+## Student ID    : 920615641
 
-## Student Email : Email here
+## Student Email : taye1@mail.sfsu.edu

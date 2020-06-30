@@ -20,6 +20,7 @@ GOTO continue<<5>>
 LABEL else<<4>>
 LOAD 0 n
 LOAD 0 n
+DUMP OFF
 LIT 1
 BOP -
 ARGS 1
@@ -32,10 +33,12 @@ POP 0
 LIT 0    GRATIS-RETURN-VALUE
 RETURN factorial<<2>>
 LABEL continue<<3>>
+DUMP ON
 ARGS 0
 CALL Read
 ARGS 1
 CALL factorial<<2>>
+DUMP ON
 ARGS 1
 CALL Write
 POP 3
